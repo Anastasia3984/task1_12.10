@@ -1,0 +1,44 @@
+#blockA {
+    width: 100%;
+    height: 400px;
+    color: blue;
+    position: relative;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-weight: bold;
+}
+#blockB {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 50%;
+    font-weight: normal;
+    transform: translateX(-50%);
+    color: white;
+    border: 1px solid black;
+    position: relative;
+}
+#blockC {
+    width: 110px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    color: red;
+    line-height: 100px;
+}
+#blockD {
+    width: 80px;
+    height: 20px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid black;
+}
